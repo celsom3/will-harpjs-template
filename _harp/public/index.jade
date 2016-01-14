@@ -1,0 +1,19 @@
+
+section.content
+  main#scroll.home(role='main', itemprop='mainContentOfPage', itemscope='itemscope', itemtype='http://schema.org/Blog')
+
+  for post, slug in public.posts._data
+    article.post-item(role='article', itemscope='itemscope', itemtype='http://schema.org/BlogPosting', itemprop='blogPost')
+      a.datetime(href='/posts/#{ slug }')
+        meta(itemprop='datePublished', content='#{ date }')
+        time(datetime='#{ date }')
+          span.day #{ post.day }
+          span.month-year  #{ post.month} #{ post.year }
+      .content
+        a(href='/posts/#{ slug }')
+          h2.post-title(itemprop='name')= post.title
+        p.description #{ post.excerpt } .... 
+          a.link(href='/posts/#{ slug }') Read more about #{ post.title }
+        .tags
+          for tag in post.tags
+            a(href='/tags/##{ tag }') #{ tag }

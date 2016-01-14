@@ -1,0 +1,25 @@
+{
+	"globals": {
+		"title": "Celso Mireles",
+		"description": "I write words. About ideas and things.",
+		"url": "http://celsomireles.com",
+		"username": "Celso Mireles",
+		"user_description": "Web Developer and Writer",
+		"user_title": "Digital Strategist",
+		"email": "celso.mireles@gmail.com",
+		"twitter_username": "celsom3",
+		"github_username": "celsom3",
+		"disqus_username": "celsomireles",
+
+		"links": [
+			{
+				"title": "Home",
+				"url": "/"
+			},
+			{
+				"title": "About Me",
+				"url": "/about"
+			}
+		]
+	}
+}

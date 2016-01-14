@@ -1,0 +1,11 @@
+doctype html
+head
+  != partial("_partial/head")
+  body
+
+
+  section.post(itemscope, itemtype="http://schema.org/WebPage")
+    article#scroll.post-content(role="article")
+      != yield
+
+    != partial("_partial/footer")

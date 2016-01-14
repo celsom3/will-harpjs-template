@@ -1,0 +1,8 @@
+section.author(itemprop='author')
+  .details(itemscope='', itemtype='http://schema.org/Person')
+    img.img-rounded(itemprop='image', src='/assets/img/blog-author.jpg', alt='{{site.name}}')
+    p.def Author
+    h3.name
+      a(itemprop='name', href='http://twitter.com/#{twitter_username}', target="_blank") #{username}
+    p.desc #{user_description}
+    a.email(itemprop='email', href='mailto:#{email}') #{email}

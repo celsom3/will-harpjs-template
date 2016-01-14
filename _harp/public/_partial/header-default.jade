@@ -1,0 +1,23 @@
+header.header-site(role='banner')
+  .header-post-bg
+    .content
+      h1
+        span.site-title #{ title }
+        span.site-description #{ user_title }
+      .icons-home
+        a(aria-label='Send email', href='mailto:#{ email }')
+          svg.icon.icon-email
+            use(xlink:href='#icon-email')
+        a(aria-label='My Twitter', target='_blank', href='https://twitter.com/#{twitter_username}')
+          svg.icon
+            use(xlink:href='#icon-twitter')
+        a(aria-label='My Github', target='_blank', href='https://github.com/#{github_username}')
+          svg.icon.icon-github-alt
+            use(xlink:href='#icon-github-alt')
+        a(aria-label='Use the RSS to get updated', target='_blank', href='/feed.xml')
+          svg.icon.icon-rss
+            use(xlink:href='#icon-rss')
+    a.down(role='button', data-scroll='', href='#scroll')
+      svg.icon.icon-angle-down
+        use(xlink:href='#icon-angle-down')
+          != partial("menu-search")

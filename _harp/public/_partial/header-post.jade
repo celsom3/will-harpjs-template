@@ -1,0 +1,11 @@
+header.header-post(role='banner')
+  .header-post-bg
+    .content
+      if date
+        time.date(itemprop='datePublished', datetime='#{date}') #{date}
+      h1.post-title(itemprop='name') #{title}
+      p.subtitle(itemprop='description') #{ description }
+    a.down(data-scroll='', href='#scroll')
+      svg.icon.icon-angle-down
+        use(xlink:href='#icon-angle-down')
+          != partial("menu-search")

@@ -1,0 +1,11 @@
+section.share
+  h3 Share
+  a(aria-label='Share on Twitter', href='https://twitter.com/intent/tweet?text="#{twitter_text}"%20#{url}#{slug}%20via%20@#{twitter_username}', onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;", title='Share on Twitter')
+    svg.icon.icon-twitter
+      use(xlink:href='#icon-twitter')
+  a(aria-label='Share on Facebook', href='https://www.facebook.com/sharer/sharer.php?u=#{url}', onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;", title='Share on Facebook')
+    svg.icon.icon-facebook
+      use(xlink:href='#icon-facebook')
+  a(aria-label='Share on Google Plus', href='https://plus.google.com/share?url=#{url}', onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;", title='Share on Google+')
+    svg.icon.icon-google-plus
+      use(xlink:href='#icon-google-plus')

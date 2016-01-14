@@ -1,0 +1,51 @@
+{
+	"2016-01-13-first-pull-request-on-github": {
+    "title": "My first Pull Request",
+		"date": "2016-01-13 21:32:35 -0200",
+		"day": "13",
+		"month": "January",
+		"year": "2016",
+		"description": "Making a big deal out of this.",
+		"tags": ["git", "web development", "wordpress"],
+		"categories": "Development",
+		"twitter_text": "First Pull Request on Github",
+		"excerpt": "Today was pretty epic for me. Not gonna lie. At the risk of sounding like a total noob, I will announce that today was the first time I contributed to an open source project. Let me start from the beginning"
+  },
+	"2015-09-14-Lessons-from-my-first-creatathon": {
+    "title": "Lessons from my first CreataThon",
+		"date": "2015-09-14 11:58:35 -0200",
+		"day": "14",
+		"month": "September",
+		"year": "2015",
+		"description": "My first peak into the local Phoenix tech scene.",
+		"tags": ["entrepreneur", "networking"],
+		"categories": "Random",
+		"twitter_text": "Lessons from my first Creatathon",
+		"excerpt": "This past weekend I participated in Arizona’s first Creatathon. The idea of the event is to get teams of creatives into a room for 24 hours to deliver pro-bono value to 7 Arizona nonprofits. I served as team lead for the Big Brothers Big Sisters"
+  },
+	"2015-08-15-thoughts-on-the-hamburger-menu": {
+    "title": "Thoughts on the Hamburger Menu",
+		"date": "2015-08-15 20:08:35 -0200",
+		"day": "15",
+		"month": "August",
+		"year": "2015",
+		"description": "Because something this popular cannot be wrong... right?",
+		"tags": ["design", "web development"],
+		"categories": "Development",
+		"twitter_text": "Thoughts on the Hamburger Menu",
+		"excerpt": "I must admit, I would internally roll my eyes when friends bash on the now famous Hamburger Menu."
+  },
+	"change-of-scenery": {
+    "title": "Change of Scenery",
+		"date": "2015-08-13 20:08:35 -0200",
+		"day": "13",
+		"month": "August",
+		"year": "2015",
+		"description": "New website look.",
+		"tags": ["jekyll", "web"],
+		"categories": "Development",
+		"twitter_text": "New website look.",
+		"excerpt": "I haven't really had an online space to share some writing lately. I used to have a WordPress site, but that was too complicated to handle for just a simple blog."
+  }
+
+}

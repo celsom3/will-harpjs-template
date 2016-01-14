@@ -1,0 +1,17 @@
+{
+	"index": {
+		"layout": "_layout"
+	},
+	"about": {
+		"layout": "_page"
+	},
+	"feed": {
+		"layout": "false"
+	}
+	,"404": {
+		"layout": "_minimal"
+	},
+	"search": {
+		"layout": "false"
+	}
+}

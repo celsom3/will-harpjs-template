@@ -1,0 +1,13 @@
+doctype html
+head
+  != partial("_partial/head")
+  body
+
+  != partial('_partial/svg-icons.html')
+  != partial('_partial/header-default')
+
+  section.post(itemscope, itemtype="http://schema.org/BlogPosting", itemprop="articleBody")
+    article#scroll.post-content(role="article")
+      != yield
+
+    != partial("_partial/footer")

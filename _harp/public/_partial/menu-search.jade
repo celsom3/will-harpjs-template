@@ -1,0 +1,25 @@
+.search-wrapper
+  .search-form
+    input.search-field(type='text', placeholder='Search...')
+    svg.icon-remove-sign
+      use(xlink:href='#icon-close')
+    ul.search-results.search-list
+#fade.overlay
+a#slide.slideButton.fade
+  svg#open.icon-menu
+    use(xlink:href='#icon-menu')
+  svg#close.icon-menu
+    use(xlink:href='#icon-close')
+aside#sidebar
+  nav#navigation
+    h2 MENU
+    ul
+      for link in links
+        li
+          a(href='#{ link.url }') #{ link.title }
+
+      li
+        a.feed(href='#{url}/feed.xml', title='Atom/RSS feed') RSS
+//- a#search.dosearch
+//-   svg.icon-menu.icon-search
+//-     use(xlink:href='#icon-search')

@@ -1,0 +1,13 @@
+doctype html
+head
+  != partial("_partial/head")
+  body
+
+  != partial('_partial/svg-icons.html')
+  != partial('_partial/header-post', { title: "About Me"})
+
+  section.post(itemscope, itemtype="http://schema.org/WebPage")
+    article#scroll.post-content(role="article")
+      != yield
+
+    != partial("_partial/footer")
